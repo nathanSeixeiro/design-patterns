@@ -1,0 +1,21 @@
+{
+    "name": "design-patterns",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+        "build": "tsc",
+        "jest": "jest",
+        "test": "jest --no-cache --watchAll",
+        "format": "eslint --fix --write"
+    },
+    "devDependencies": {
+        "@types/node": "^20.3.3",
+        "@typescript-eslint/eslint-plugin": "^6.6.0",
+        "@typescript-eslint/parser": "^6.6.0",
+        "eslint": "^8.49.0",
+        "ts-node": "^10.4.0",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^5.2.2"
+    }
+}
