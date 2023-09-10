@@ -1,5 +1,3 @@
-import { log } from 'console'
+import { GenericRepository } from "./Generic-Repository-pattern";
 
-export function main() {
-  log('Hello!')
-}
+void GenericRepository()
