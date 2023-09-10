@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { IWrite, IRead } from "../interface";
-import { MongoClient, Db, Collection, InsertOneResult, OptionalId } from 'mongodb';
+import { Db, Collection,OptionalId } from 'mongodb';
 
 export abstract class BaseRepository<T> implements IWrite<T>, IRead<T> {
     public readonly _collection: Collection
